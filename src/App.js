@@ -1,4 +1,5 @@
 import './App.css';
+import { Blogs } from './components/Blogs/Blogs';
 import { Category } from './components/category/Category';
 import { Header } from './components/header/Header';
 import { Home } from './components/home/Home';
@@ -14,6 +15,7 @@ function App() {
       <Category />
       <Products />
       <Marcas />
+      <Blogs />
     </div>
   );
 }

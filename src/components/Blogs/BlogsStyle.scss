@@ -1,0 +1,101 @@
+.blogs-container{
+  width: 100%;
+  height: 1000px;
+  .blogs-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4D4D4D;
+    padding-left: 56px;
+    padding-bottom: 25px;
+  }
+  .blogs-content{
+    width: 100%;
+    display: flex;
+    padding-left: 56px;
+    gap: 20px;
+    .blogs-box{
+      width: 277px;
+      height: 419px;
+      display: flex;
+      flex-direction: column;
+      background: #FEF6E7;
+      border-radius: 20px 20px 20px 20px;
+      .blogs-img{
+        border-radius: 20px 20px 0px 0px;
+      }
+      .blogs-title-box{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #4D4D4D;
+        padding: 24px 0px 16px 24px;
+      }
+      .blogs-description{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9F9F9F;
+        padding: 0px 0px 16px 24px;
+      }
+      .blogs-button{
+        width: 153px;
+        height: 48px;
+        margin: 0px 0px 16px 24px;
+        border-radius: 10px;
+        background-color: #FBB900;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 900;
+        text-align: center;
+        letter-spacing: 0.08em;
+        border: 1px solid #F0D075;
+      }
+    }
+  }
+  .blogs-left{
+    position: relative;
+    bottom:284px;
+    left: 22px;
+  }
+  .blogs-right{
+    position: relative;
+    left: 1126px;
+    bottom: 284px;
+  }
+  .blogs-circle{
+    position: relative;
+    padding-top: 32px;
+    left: 35%;
+  }
+
+  .blogs-top-insta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 56px 41px 56px;
+    .blogs-top-title-insta{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      color: #4D4D4D;
+    }
+    .blogs-top-insta-follow{
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      text-decoration-line: underline;
+      color: #FBB900;
+    }
+  }
+  .blogs-box-insta{
+    display: flex;
+    width: 100%;
+    .insta-img{
+      width: 134px;
+      height: 243px;
+      object-fit: cover;
+    }
+  }
+
+}
