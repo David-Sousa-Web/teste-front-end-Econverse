@@ -1,0 +1,77 @@
+.main-container{
+  width: 100%;
+  height: 490px;
+  .main-image{
+    position: absolute;
+    object-fit: fill;
+    width: 100%;
+    height: 853px;
+    left: 0px;
+    top: 41px;
+    z-index: -1;
+  }
+  .main-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 387px;
+    height: 252px;
+    left: 144px;
+    top: 253px;
+    .text-main{
+      font-size: 40px;
+      color: white;
+      font-weight: 800;
+    }
+    .button-main{
+      width: 131px;
+      height: 48px;
+      border-radius: 10px;
+      background-color: #FBB900;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 900;
+      text-align: center;
+      letter-spacing: 0.08em;
+      border: 1px solid #F0D075;
+      padding: 10px;
+    }
+    .button-main:hover{
+      cursor: pointer;
+    }
+  }
+  .arrow-left{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 38px;
+    top: 50%;
+  }
+  .arrow-right{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 92%;
+    top: 50%;
+  }
+  .elipse-content{
+    display: flex;
+    gap: 16px;
+    width: 68px;
+    height: 12px;
+    margin: auto;
+    position: absolute;
+    top: 572px;
+    left: 50%;
+    .elipse-one{
+      background-color: white;
+      border-radius: 50%;
+    }
+  }
+  .arrow-down{
+    position: absolute;
+    left: 50%;
+    top: 608px
+  }
+}
