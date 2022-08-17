@@ -40,10 +40,28 @@ export function Marcas() {
       <img className='brands-left' src="./assets/arrowLeft.svg" alt="" />
       <img className='brands-right' src="./assets/arrowRight.svg" alt="" />
 
-      <div className=''>
-        
+      <div className='brands-additional'>
+
+        <div className='brands-adverts'>
+          <div className='brands-adverts-content'>
+            <h1 className='adverts-title'>Parceiros</h1>
+            <p className='adverts-description'>Lorem ipsum dolor sit amet, consectetur</p>
+            <button className='adverts-button'>Confira</button>
+          </div>
+        </div>
+
+        <div className='brands-subscription'>
+          <div className='brands-subs-content'>
+            <h1 className='subs-title'>Assinatura Cãoselheiro</h1>
+            <p className='subs-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor adipiscing quis non sed.</p>
+            <button className='subs-button'>Saiba Mais</button>
+          </div>
+          <img className='subs-img' src="./assets/marcasimg/cachorro2.svg" alt="" />
+        </div>
+
       </div>
 
+      <img className='circles-img-brands' src="./assets/marcasimg/circlesmarcas.svg" alt="" />
     </section>
   )
 }

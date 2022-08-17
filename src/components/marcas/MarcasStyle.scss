@@ -1,6 +1,6 @@
 .brands-container{
   width: 100%;
-  height: 600px;
+  height: 850px;
   .brands-top{
     display: flex;
     justify-content: space-between;
@@ -45,5 +45,115 @@
     position: relative;
     bottom: 120px;
     left: 1126px;
+  }
+  .brands-additional{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    padding-left: 56px;
+    justify-content: space-between;
+    
+    .brands-adverts{
+      width: 574px;
+      height: 350px;
+      background-image: url(./cachorro1.svg);
+      border-radius: 20px;
+     .brands-adverts-content{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%);
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        border-radius: 0px 0px 20px 20px;
+        height: 100%;
+        padding-left: 56px;
+        .adverts-title{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 60px;
+          color: #FFFFFF;
+          padding-top: 114px;
+        }
+        .adverts-description{
+          width: 181px;
+          height: 48px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+          padding-top: 8px;
+          padding-bottom: 32px;
+        }
+        .adverts-button{
+          width: 131px;
+          height: 48px;
+          border-radius: 10px;
+          background-color: #FBB900;
+          color: white;
+          text-transform: uppercase;
+          font-weight: 900;
+          text-align: center;
+          letter-spacing: 0.08em;
+          border: 1px solid #F0D075;
+          padding: 10px;
+          margin-top: 40px;
+        }
+      }
+    }
+    .brands-subscription{
+      width: 630px;
+      height: 350px;
+      background: #FEF6E7;
+      padding-left: 40px;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 20px 0px 0px 20px;
+      .brands-subs-content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 46px;
+        .subs-title{
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 48px;
+          color: #4D4D4D;
+        }
+        .subs-description{
+          width: 295px;
+          height: 72px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #9F9F9F;
+          padding-top: 16px ;
+          padding-bottom: 50px;
+        }
+        .subs-button{
+          width: 131px;
+          height: 48px;
+          border-radius: 10px;
+          background-color: #FBB900;
+          color: white;
+          text-transform: uppercase;
+          font-weight: 900;
+          text-align: center;
+          letter-spacing: 0.08em;
+          border: 1px solid #F0D075;
+          padding: 10px;
+          margin-top: 40px;
+        }
+      }
+      .subs-img{
+        z-index: 5;
+        height: 375px;
+        position: relative;
+        bottom: 25px;
+      }
+    }
+  }
+  .circles-img-brands{
+    padding-top: 24px;
+    padding-left: 309px;
   }
 }
