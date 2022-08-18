@@ -1,0 +1,132 @@
+.footer-container{
+  width: 100%;
+  height: 634px;
+  display: flex;
+  background-color: #FBB900;
+  .footer-main{
+    width: 70%;
+    height: 100%;
+    border-right: 1px solid #FFFFFF;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    .title-main{
+      width: 319px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .footer-icons-main{
+      display: flex;
+      gap: 32px;
+    }
+    .footer-secundary-main{
+      padding-top: 56px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-direction: column;
+      .secundary-text-main{
+        width: 339px;        ;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+
+  }
+
+  .footer-instructions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .instruction-content{
+      display: flex;
+      gap: 60px;
+      padding-top: 56px;
+      padding-left: 56px;
+      .instruction-content-part1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .title-instruction{
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px; 
+          text-transform: uppercase;
+          color: #FFFFFF;
+        }
+        .instruction-text{
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          color: #FFFFFF;
+          display: flex;
+          gap: 5px;
+          align-items: center;
+        }
+      }
+    }
+    .instruction-content-2{
+      display: flex;
+      gap: 178px;
+      padding-top: 56px;
+      padding-left: 56px;
+      padding-bottom: 40px;
+      .instruction-content-itens-2{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        .title-instruction-2{
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px; 
+          text-transform: uppercase;
+          color: #FFFFFF;
+        }
+        .img-1{
+          width: 229px;
+          height: 85px;
+        }
+        .img-2{
+          width: 84px;
+          height: 70px;
+        }
+      }
+    }
+
+    .footer-logos{
+      width: 100%;
+      border-top: 1px solid white;
+      height: 134px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logos-text{
+        width: 230px;     
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px; 
+        color: #FFFFFF;
+        padding-left: 56px;
+        text-align: justify;
+
+      }
+      .econverse{
+        width: 226.08px;
+        height: 32px;
+        padding-right: 56px;
+      }
+    }
+  }
+
+
+}
